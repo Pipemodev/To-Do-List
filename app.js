@@ -36,3 +36,16 @@ function agregarTarea() {
     alert('Por favor ingresa una tarea.');
   }
 }
+
+
+// Marcar una tarea como completada.
+function completarTarea(e) {
+  let tarea = e.target.parentNode.parentNode;
+  tarea.classList.toggle('completada');
+}
+
+// Eliminar una tarea del DOM.
+function eliminarTarea(e) {
+  let tarea = e.target.parentNode.parentNode;
+  tarea.remove();
+}

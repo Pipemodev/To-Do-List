@@ -29,3 +29,44 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+/* Titulo */
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Ingresar texto */
+
+input {
+  width: 80%;
+  height: 50px;
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid #404040;
+  border-radius: 10px;
+}
+
+/* Boton */
+
+button {
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  background-color: #1312a8;
+  font-size: 22px;
+  border-radius: 20px;
+  border: 0px solid black;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Lista de tareas */
+
+#lista-de-tareas {
+  width: 80%;
+  margin-top: 20px;
+}

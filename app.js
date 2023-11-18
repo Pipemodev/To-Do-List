@@ -3,6 +3,13 @@ const input = document.getElementById('ingresar-tarea');
 const boton = document.querySelector('button');
 const listaDeTareas = document.getElementById('lista-de-tareas');
 
+boton.addEventListener('click', agregarTarea);
+input.addEventListener('keydown', (e) => {
+  if (e.key == 'Enter') {
+    agregarTarea();
+  }
+});
+
 function agregarTarea() {
   if (input.value) {
     // Crear tarea.
